@@ -1,0 +1,903 @@
+CRITICAL - 2022-05-07 11:49:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\HTTP\IncomingRequest.php:161) in E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\wamp64\\www\\p...', 161)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-07 12:48:13 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:15 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:15 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:15 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:22 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:23 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:23 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:24 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:33 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:33 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:34 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:34 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:34 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:34 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:40 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:41 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:41 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:41 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:41 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:42 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:42 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:42 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:43 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:48:43 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:49:01 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:49:01 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 8, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:11 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:12 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:12 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:13 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:13 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:53 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:54 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:55 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:55 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:55 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:51:55 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:53:57 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:53:58 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:53:58 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:56:32 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:56:33 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 12:56:33 --> Undefined variable: base_url
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:07:56 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 12, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:07:57 --> Undefined variable: baseURL
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Views\product_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 12, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\View\View.php(236): include('E:\\wamp64\\www\\p...')
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Common.php(1071): CodeIgniter\View\View->render('product_view', Array, true)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Product.php(13): view('product_view', Array)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Product->index()
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:16:22 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(1365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'E:\\wamp64\\www\\p...', 1365)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(631): CodeIgniter\Router\RouteCollection->create('*', 'basecontroller(...', Object(Closure), NULL)
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Config\Routes.php(53): CodeIgniter\Router\RouteCollection->add('basecontroller(...', Object(Closure))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Config\Routes.php(10): require('E:\\wamp64\\www\\p...')
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(772): require('E:\\wamp64\\www\\p...')
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:16:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\HTTP\IncomingRequest.php:161) in E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\wamp64\\www\\p...', 161)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-07 13:16:28 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(1365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'E:\\wamp64\\www\\p...', 1365)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(631): CodeIgniter\Router\RouteCollection->create('*', 'basecontroller(...', Object(Closure), NULL)
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Config\Routes.php(53): CodeIgniter\Router\RouteCollection->add('basecontroller(...', Object(Closure))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Config\Routes.php(10): require('E:\\wamp64\\www\\p...')
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(772): require('E:\\wamp64\\www\\p...')
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:16:28 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\HTTP\Request.php:429) in E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\wamp64\\www\\p...', 161)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-07 13:16:31 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(1365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'E:\\wamp64\\www\\p...', 1365)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Router\RouteCollection.php(631): CodeIgniter\Router\RouteCollection->create('*', 'basecontroller(...', Object(Closure), NULL)
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Config\Routes.php(53): CodeIgniter\Router\RouteCollection->add('basecontroller(...', Object(Closure))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Config\Routes.php(10): require('E:\\wamp64\\www\\p...')
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(772): require('E:\\wamp64\\www\\p...')
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 13:16:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\HTTP\Request.php:429) in E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\wamp64\\www\\p...', 161)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-07 13:23:38 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\HTTP\IncomingRequest.php:161) in E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\wamp64\\www\\p...', 161)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-07 14:05:55 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:47 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:48 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:48 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:49 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:49 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:51 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:09:51 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:11:58 --> Call to undefined method App\Libraries\GroceryCrud::to_array()
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:11:59 --> Call to undefined method App\Libraries\GroceryCrud::to_array()
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:12:04 --> Call to undefined method App\Libraries\GroceryCrud::array()
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:12:04 --> Call to undefined method App\Libraries\GroceryCrud::array()
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:12:04 --> Call to undefined method App\Libraries\GroceryCrud::array()
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:12:31 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:12:32 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:12:32 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:12:32 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:12:33 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:12:33 --> Undefined variable: crud
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\p...', 11, Array)
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:13:31 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:13:32 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:13:32 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:13:33 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:22 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:23 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:23 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:24 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:24 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:24 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:25 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:25 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:25 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:26 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:14:26 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:08 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:09 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:09 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:09 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:10 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:10 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:10 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:42 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:15:43 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(13): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:28:17 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(15): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 14:42:54 --> The table name does not exist. Please check you database and try again.
+#0 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\app\Controllers\Examples.php(15): App\Libraries\GroceryCrud->render()
+#3 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(910): App\Controllers\Examples->customers_management()
+#4 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#5 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\php\framework\codeigniter\ver-4\crud-codeigniter4-modal-bootstrap-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

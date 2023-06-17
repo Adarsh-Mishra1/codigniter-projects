@@ -1,0 +1,189 @@
+CRITICAL - 2022-10-05 02:12:12 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:12:34 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:14:10 --> Undefined property: App\Controllers\Home::$input
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:14:46 --> Undefined property: App\Controllers\Home::$input
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:16:35 --> Undefined property: App\Controllers\Home::$input
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:16:47 --> Undefined property: App\Controllers\Home::$input
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:16:53 --> Undefined property: App\Controllers\Home::$input
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:18:06 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 02:18:35 --> Undefined property: App\Controllers\Home::$form_validation
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 25, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:20:30 --> Undefined property: App\Controllers\Home::$form_validation
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 25, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 02:22:02 --> Class 'App\Controllers\mlogin' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 02:25:00 --> Class 'App\Controllers\mlogin' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(910): App\Controllers\Home->getLogin()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 02:25:55 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:27:22 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:27:25 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:29:44 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:30:06 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:30:15 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 02:33:01 --> Cannot call constructor
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 02:33:03 --> Cannot call constructor
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 23:48:41 --> Cannot call constructor
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 23:49:28 --> Class 'App\Controllers\Controller' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(549): include_once()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-05 23:49:53 --> Cannot call constructor
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-05 23:50:32 --> Undefined property: App\Controllers\Home::$load
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 11, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 23:52:21 --> Class 'App\Controllers\Controller' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(549): include_once()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-05 23:52:39 --> Class 'App\Controllers\Controller' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(549): include_once()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-05 23:53:09 --> Class 'Controller' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(549): include_once()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-05 23:53:33 --> Class 'App\Controllers\Controller' not found
+#0 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(549): include_once()
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-05 23:53:55 --> Undefined property: App\Controllers\Home::$load
+#0 C:\wamp64\www\ci\ver-4\php_practical\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 11, Array)
+#1 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#2 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\ci\ver-4\php_practical\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\ver-4\php_practical\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-05 23:56:12 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 23:57:10 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 23:58:26 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-05 23:58:52 --> Declaration of App\Models\mlogin::validate($user, $pass) must be compatible with CodeIgniter\Model::validate($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
